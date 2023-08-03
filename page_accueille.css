@@ -1,0 +1,61 @@
+
+	
+body {
+	font-family:sans-serif;
+	background:url(IMG/logo2.jpg ) ;
+	background-color:gray;
+	background-repeat: no repeat;
+	background-size:cover;
+	margin:solide;
+	height:20px;
+	width:20;
+}
+header {
+	background-color:green;
+	paddind:10px;
+	color:#fff;
+	
+}
+nav ul {
+	list-style:none;
+	paddind:0;
+	margin:0;
+	
+}
+nav li {
+	display:inline-block;
+	margin-right:o;
+	
+}
+nav a {
+	color:#fff;
+	text-decoration:none;
+	
+}
+	.d1{
+	height:200px;
+	width:300px;
+	float:left;
+	background-color:olive;
+	overflow:scroll;
+	/*chap39;les proprieter 'float',overflow;*/
+	
+	
+	}
+	a:link{
+	color:yellow;
+		}
+	a:visited{
+		color:blue;}
+	a:hover{
+		color:orange:}
+		
+	
+	
+
+}
+    
+
+
+	
+	

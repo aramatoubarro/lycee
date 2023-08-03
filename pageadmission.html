@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+	<title>page admission </title>
+ <link rel="stylesheet" href="page_accueille.css">
+       <header>
+		
+             <img src="téléchargement.jpeg." alt="logo du lycée" height="50" align="right" width="50" border="2" vspace="5" > 
+		 <img src="téléchargement.jpeg." alt="logo du lycée" height="50" align="left" width="50" border="2" vspace="5" > 
+           <h1 style="text-align:center">Lycée Scientifique</h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Accueille</a> </li>
+			<li><a href="pageparcours.html">Parcours</a> </li>
+			<li><a href="pageadmission.html">Admission</a></li>
+			<li><a href="pagegalerie.html">Galerie</a> </li>
+  		</ul>
+	</nav>
+
+	</header>
+	</head>
+	  <body>
+	     <marquee><h2>Formulaire d'admission au lycee scientifique</h2></marquee>
+		<fieldset><div align="center><h1>FORMULAIRE DE REMPLISSAGE DE CV</h1>
+				</div>
+		<form action="/actionpage.php">
+		<div align="center">
+		<fielset>
+		<legend><b><h2>photo d'identité</h2></b></legend>
+		<label for="photo">sélectionez une photo</label>
+		<input type="file" id="photo" name="photo" accept="image/png image/jpg">
+		</fieldset></div><br>
+	      <fieldset>
+	     <legend><h2>Etat Civile:</h2></legend>
+
+	     <label for="fname">Nom :</label>
+		
+	     <input type="text" id="fname" name="fname" 
+		<required="required"><br><br>
+	     <label for="fname">Prénom :</label>
+	     <input type="text" id="fname" name="fname" ><br><br>
+	     <label for="fname">Sexe :</label>
+	     <input type="radio" value="homme" name="sexe" checked>Homme<br><br>
+	     <input type="radio" value="homme" name="sexe">Femme<br><br>
+	     <label for="fname">Age :</label>
+	     <input type="text" id="fname" name="fname"><br><br>
+	     <label for="fname">Lieu de naissance :</label>
+	      <input type="text" id="fname" name="fname"><br><br>
+		</fieldset>
+	<fieldset>
+		<legend><h2>Parcours:</h2></legend>
+	<div>
+	 	   <label>Sélectionnez le diplome</label>
+        <select type="text" value="" name="Sujet">
+          <option></option>
+          <option>BEPC</option>
+          <option>CAP</option>
+          <option>BEP</option>
+          <option>LICENCE</option>
+        </select>
+		</div><br>
+		</fieldset>
+			<div>
+		<fieldset>
+	<legend><h2>Choix de departement au lycee scientifique:</h2></legend>
+	<label for="fname">vous pouvez choisir ici :</label>
+	<select size="1">
+		<option>Genie civile</option>
+		<option>Genie Industriel et Productique</option>
+		<option>Genie Mecanique</option>
+		<option> Secretariat</option>
+		<option>Genie Biologie</option>
+		<option>Informatique </option>
+			</fieldset>
+			 </div><br/>
+        
+	
+	
+		
+	<div>
+		<fieldset>
+	<input type="submit" value="Envoyer"><br><br><br><br>	
+ 		<required="required"><br><br>
+</fieldset>
+</div><br>
+</body>
+</html>

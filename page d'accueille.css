@@ -1,0 +1,32 @@
+body{
+	background-color: #ff9500;
+	width: 600px;
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
+	border: 20px solid black;
+}
+div.parcours{
+	float:left;
+	width: 30px;
+	background-color:red;
+	border:1px solid black;
+	color:#fe25;
+}
+div.admission{
+	float:midle;
+	width: 20px;
+	background-color:green;
+	border:1px solid black;
+	color:#fe2a00;
+}
+div.galerie{
+	float:right;
+}
+
+
+h1{
+font-size:80px;
+	corlor:green; 
+	text-align:center;
+}
+	
